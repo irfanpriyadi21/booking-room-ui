@@ -1,10 +1,12 @@
 # Booking Room UI
 
 <p float="left">
-  <img src="/pic1.png" width="100" />
-  <img src="/pic2.png" width="100" />
-  <img src="/pic3.png" width="100" />
-  <img src="/pic4.png" width="100" /> 
+  <img src="/pic1.png" width="200" />
+  <img src="/pic2.png" width="200" />
+</p>
+<p float="left">
+  <img src="/pic3.png" width="200" />
+  <img src="/pic4.png" width="200" /> 
 </p>
 
 A new Flutter project.
