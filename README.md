@@ -2,16 +2,10 @@
 
 <p float="left">
   <img src="/pic1.png" width="100" />
-  <img src="/pic2.png" width="100" /> 
-</p>
-<p float="left">
+  <img src="/pic2.png" width="100" />
   <img src="/pic3.png" width="100" />
   <img src="/pic4.png" width="100" /> 
 </p>
-![Alt text](/pic1.png)
-![Alt text](/pic2.png)
-![Alt text](/pic3.png)
-![Alt text](/pic4.png)
 
 A new Flutter project.
 
