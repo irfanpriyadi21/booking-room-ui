@@ -5,6 +5,9 @@ A new Flutter project.
 ## Getting Started
 
 ![Alt text](/pic1.png)
+![Alt text](/pic2.png)
+![Alt text](/pic3.png)
+![Alt text](/pic4.png)
 
 This project is a starting point for a Flutter application.
 
