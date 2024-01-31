@@ -1,6 +1,7 @@
 import 'package:booking_room/Page/Dashboard/detail.dart';
+import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
+
 
 
 class SwiperComponent extends StatelessWidget {
@@ -21,20 +22,6 @@ class SwiperComponent extends StatelessWidget {
       containerWidth: double.infinity,
       layout: SwiperLayout.CUSTOM,
       controller: new SwiperController(),
-      customLayoutOption: CustomLayoutOption(
-        startIndex: 0,
-        stateCount: 3,
-      ).addOpacity(
-        [0.25, 0.5, 1.0, 0.1],
-      ).addTranslate([
-        new Offset(0.0, 20.0),
-        new Offset(0.0, -10.0),
-        new Offset(0.0, -50.0),
-        new Offset(0.0, -100.0),
-      ]).addScale(
-        [0.75, 0.85, 1.0],
-        Alignment.bottomCenter,
-      ),
       itemBuilder: (context, index) {
         return ClipRRect(
           borderRadius: BorderRadius.only(
